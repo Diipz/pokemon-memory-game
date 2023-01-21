@@ -1,0 +1,32 @@
+.header-container {
+    background-color: #1d2d44;
+    height: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container>img {
+    height: 70%;
+    width: 20%;
+    object-fit: contain;
+    
+    
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    font-size: 2rem;
+    padding: 0 4rem;
+}
+
+.score-container>p {
+    color: white;
+}
+
+
